@@ -20,7 +20,7 @@ docker image rm express-app:v2
 - running container
 
 ```
-docker run -d --name express-container express-app
+docker run -d --name express-container -p 3333:3333 express-app
 ```
 
 - to check running container
